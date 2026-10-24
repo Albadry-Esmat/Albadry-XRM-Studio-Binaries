@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "release": {
+    "version": "0.1.0-alpha.2",
+    "channel": "alpha",
+    "state": "draft",
+    "prerelease": true,
+    "publiclyDownloadable": false,
+    "releaseRepository": "Albadry-Esmat/Albadry-XRM-Studio-Binaries"
+  },
+  "source": {
+    "repository": "Albadry-Esmat/Albadry-XRM-Studio",
+    "branch": "main",
+    "commit": "f09bf928afd0834fca8d5ddd27f1c377081c8138"
+  },
+  "artifacts": [
+    {
+      "name": "Albadry-XRM-Studio-windows-x64-0.1.0-alpha.2.zip",
+      "platform": "windows",
+      "architecture": "x64",
+      "format": "self-contained-portable-zip",
+      "sizeBytes": 100526497,
+      "sha256": "51c02ec242f9d4fd3fbab32e96a98689029bff8b5c06e36e0b28e300d8f146a9"
+    },
+    {
+      "name": "Albadry-XRM-Studio-macos-arm64-0.1.0-alpha.2.zip",
+      "platform": "macos",
+      "architecture": "arm64",
+      "format": "app-bundle-zip",
+      "sizeBytes": 72346102,
+      "sha256": "284051f3b65916e29a024291217049e821ae2222511fd96f6f161b3867c86c52"
+    },
+    {
+      "name": "Albadry-XRM-Studio-macos-x64-0.1.0-alpha.2.zip",
+      "platform": "macos",
+      "architecture": "x64",
+      "format": "app-bundle-zip",
+      "sizeBytes": 74616041,
+      "sha256": "687c0199b441e8393d164cb65239ae199f01ca1f368c7d5559380bb6d0ca26f2"
+    },
+    {
+      "name": "Albadry-XRM-Studio-linux-x64-0.1.0-alpha.2.zip",
+      "platform": "linux",
+      "architecture": "x64",
+      "format": "self-contained-portable-zip",
+      "sizeBytes": 71658001,
+      "sha256": "16be7e727efbf0bb232f108a9dd494482fdf1860fc09a7d9f8652fbbd35e3d29"
+    }
+  ],
+  "verification": {
+    "sourceTests": {
+      "command": "dotnet test tests/Albadry.Xrm.Studio.Tests/Albadry.Xrm.Studio.Tests.csproj --configuration Release --no-build --no-restore",
+      "total": 5868,
+      "passed": 5868,
+      "failed": 0
+    },
+    "archiveChecks": [
+      "SHA-256 sidecar matches the final archive bytes.",
+      "ZIP test succeeds and no entry uses an unsafe path, duplicate path, symbolic link, or macOS metadata sidecar.",
+      "No PDB, DBG, or DSYM entry is present.",
+      "The packaged main executable was inspected as the declared target architecture."
+    ]
+  },
+  "limitations": [
+    "All packages are unsigned.",
+    "The macOS packages are not notarized.",
+    "Native launch testing was not performed for Windows x64, Linux x64, macOS x64, or macOS arm64 as part of this Alpha packaging run.",
+    "No automatic update channel is enabled by these packages.",
+    "This Alpha is not suitable for production Dataverse data or business-critical work."
+  ]
+}

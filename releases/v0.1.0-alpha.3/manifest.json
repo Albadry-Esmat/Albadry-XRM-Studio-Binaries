@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "release": {
+    "version": "0.1.0-alpha.3",
+    "channel": "alpha",
+    "state": "draft",
+    "prerelease": true,
+    "publiclyDownloadable": false,
+    "releaseRepository": "Albadry-Esmat/Albadry-XRM-Studio-Binaries"
+  },
+  "source": {
+    "repository": "Albadry-Esmat/Albadry-XRM-Studio",
+    "branch": "main",
+    "commit": "f09bf928afd0834fca8d5ddd27f1c377081c8138"
+  },
+  "artifacts": [
+    {
+      "name": "Albadry-XRM-Studio-macos-arm64-0.1.0-alpha.3.zip",
+      "platform": "macos",
+      "architecture": "arm64",
+      "format": "app-bundle-zip",
+      "sizeBytes": 68517020,
+      "sha256": "9c673f9e86b358b9823272ac02cfd11126ddd74d9a70dfc127cc9f09b35cd66d"
+    },
+    {
+      "name": "Albadry-XRM-Studio-macos-x64-0.1.0-alpha.3.zip",
+      "platform": "macos",
+      "architecture": "x64",
+      "format": "app-bundle-zip",
+      "sizeBytes": 71281876,
+      "sha256": "ad91b68025cff2d41c8977d7d4f82c435e74f8adc10ca3afcfa33e6ce89359e9"
+    }
+  ],
+  "verification": {
+    "sourceTests": {
+      "command": "dotnet test tests/Albadry.Xrm.Studio.Tests/Albadry.Xrm.Studio.Tests.csproj --configuration Release --no-build --no-restore",
+      "evidence": "The same source commit was tested for alpha.2; tests were not rerun for this packaging-only rebuild."
+    },
+    "archiveChecks": [
+      "Both final archives pass SHA-256 sidecar verification and ZIP integrity checks.",
+      "Both app bundles pass codesign --verify --deep --strict and have sealed resource manifests.",
+      "The ARM64 archive was extracted and launched; the app reached Help & Support.",
+      "The Intel x64 app bundle architecture was inspected; native Intel launch was not tested.",
+      "The main executable in each archive matches the declared architecture."
+    ]
+  },
+  "limitations": [
+    "Bundles use ad-hoc signatures only; they have no Developer ID signature or Apple notarization.",
+    "Gatekeeper may warn or block launch; no Gatekeeper override is included.",
+    "Only macOS archives are refreshed in alpha.3. Windows x64 and Linux x64 remain on alpha.2.",
+    "The ARM64 smoke test restored the saved PSAA-Dev workspace and began its normal connection flow; no environment interaction was performed.",
+    "No native Intel macOS launch test was performed.",
+    "No automatic update channel is enabled by these packages.",
+    "This Alpha is not suitable for production Dataverse data or business-critical work."
+  ]
+}

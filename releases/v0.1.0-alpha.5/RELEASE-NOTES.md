@@ -1,6 +1,6 @@
 # Albadry XRM Studio 0.1.0-alpha.5
 
-This is an experimental, user-tested Alpha release. Do not use it with
+This is an experimental Alpha release for tester feedback. Do not use it with
 production Dataverse data or for business-critical work. This release includes
 the forced-update and single-instance startup behavior. Once the signed Alpha
 channel manifest is promoted, versions below `0.1.0-alpha.5` will be required to

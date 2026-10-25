@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "productId": "albadry-xrm-studio",
+  "sourceCommit": "34d64528ca8204523d3d3daf8d2657f9e3a95112",
+  "keyId": "albadry-xrm-studio-ed25519-2026-10",
+  "channel": "alpha",
+  "publishedAtUtc": "2026-10-25T20:39:27Z",
+  "latestVersion": "0.1.0-alpha.5",
+  "minimumSupportedVersion": "0.1.0-alpha.5",
+  "releaseNotesUrl": "https://github.com/Albadry-Esmat/Albadry-XRM-Studio-Binaries/releases/tag/v0.1.0-alpha.5",
+  "manifestSequence": 5,
+  "automaticInstallEnabled": true,
+  "authenticity": {
+    "algorithm": "ed25519",
+    "publicKey": "c9fdfa1d2ac9304b2b0899debdb04a9201ffc756144828c8a7949cf069f90a3c",
+    "signature": "6f87f96098c40faf4f5f45c8e144e81ba3a0470c00a60abf57a7170eabdadde2591df4fb51036aae9e0eb9f5892c7d954476eab8f643da5ce52db37e36b7a509"
+  },
+  "artifacts": [
+    {
+      "architecture": "x64",
+      "compressedSizeBytes": 52389624,
+      "expandedSizeBytes": 173154092,
+      "flatpakCommit": "fcc8a49127d05b49f2f268b64daf72a9a4bd83033c6f46ad833675d84ece7878",
+      "helperProtocolMaximum": 1,
+      "helperProtocolMinimum": 1,
+      "minimumOsVersion": "25.08",
+      "packageType": "linux-flatpak-ref-v1",
+      "payloadManifestSha256": "782a32bb61815610982352a379bfb6089964a38c6aadbaf3b6f44dfed8d0db39",
+      "runtimeIdentifier": "linux-x64",
+      "sha256": "42e1937f10ae73ebee549e14d11d00fac50f693764e86bbdbae8ae2eeca4e31d",
+      "version": "0.1.0-alpha.5",
+      "downloadUrl": "https://github.com/Albadry-Esmat/Albadry-XRM-Studio-Binaries/releases/download/v0.1.0-alpha.5/Albadry-XRM-Studio-linux-x64-0.1.0-alpha.5.flatpak"
+    },
+    {
+      "runtimeIdentifier": "osx-arm64",
+      "architecture": "arm64",
+      "packageType": "macos-app-zip-v1",
+      "version": "0.1.0-alpha.5",
+      "compressedSizeBytes": 102378217,
+      "expandedSizeBytes": 265357167,
+      "sha256": "6176ee692d89af9cf143788607a56810cf92db9626157a3721a13ead3c033198",
+      "payloadManifestSha256": "96d66135c15bad1f51e3ecf083389ecbaa593f9ee5a00d797093ab0ba09f41e1",
+      "helperProtocolMinimum": 1,
+      "helperProtocolMaximum": 1,
+      "minimumOsVersion": "14.0",
+      "downloadUrl": "https://github.com/Albadry-Esmat/Albadry-XRM-Studio-Binaries/releases/download/v0.1.0-alpha.5/Albadry-XRM-Studio-macos-arm64-0.1.0-alpha.5.update.zip"
+    },
+    {
+      "runtimeIdentifier": "osx-x64",
+      "architecture": "x64",
+      "packageType": "macos-app-zip-v1",
+      "version": "0.1.0-alpha.5",
+      "compressedSizeBytes": 106509510,
+      "expandedSizeBytes": 251252771,
+      "sha256": "9ec8ebc42f7a6e735af6b52c449047b69570442743008df20a622df8a01a569b",
+      "payloadManifestSha256": "72b1bfd93f8ad0b487c6724b33c6b70b22f8a074127f50322971dba544a69340",
+      "helperProtocolMinimum": 1,
+      "helperProtocolMaximum": 1,
+      "minimumOsVersion": "14.0",
+      "downloadUrl": "https://github.com/Albadry-Esmat/Albadry-XRM-Studio-Binaries/releases/download/v0.1.0-alpha.5/Albadry-XRM-Studio-macos-x64-0.1.0-alpha.5.update.zip"
+    },
+    {
+      "runtimeIdentifier": "win-x64",
+      "architecture": "x64",
+      "packageType": "windows-portable-zip-v1",
+      "version": "0.1.0-alpha.5",
+      "compressedSizeBytes": 132304616,
+      "expandedSizeBytes": 354441798,
+      "sha256": "7616344bbedf5f4f4419ea4a29b3ec7b71775e7cfb8fe21378cf40ba908586c9",
+      "payloadManifestSha256": "4a542bedd0b4f210f6b6a2a3b80898436234d6a768de6fb91fe6c977ae7552dd",
+      "helperProtocolMinimum": 1,
+      "helperProtocolMaximum": 1,
+      "minimumOsVersion": "10.0.19041",
+      "downloadUrl": "https://github.com/Albadry-Esmat/Albadry-XRM-Studio-Binaries/releases/download/v0.1.0-alpha.5/Albadry-XRM-Studio-windows-x64-0.1.0-alpha.5.update.zip"
+    }
+  ]
+}

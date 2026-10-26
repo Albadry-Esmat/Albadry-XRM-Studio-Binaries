@@ -12,3 +12,10 @@ is made public. Check the release status and platform notes before downloading:
 macOS packages may be replaced independently of Windows and Linux packages.
 Alpha packages are experimental and must not be used with production Dataverse
 data or for business-critical work.
+
+## Private Developer Alpha
+
+The invitation-only channel is described by [`channels/private-alpha.json`](channels/private-alpha.json)
+and is delivered through a private Cloudflare R2 Worker after manual owner
+approval. It is not a public GitHub release and has no public asset links.
+Release provenance records live under [`releases/private-alpha/`](releases/private-alpha/).

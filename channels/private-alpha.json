@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "productId": "albadry-xrm-studio",
+  "channel": "private-alpha",
+  "distribution": "cloudflare-r2-private-api",
+  "publicListing": false,
+  "automaticInstallEnabled": false,
+  "releaseSource": "supabase-alpha-release-assets",
+  "licenseMode": "offline-installation-bound",
+  "licenseExpiry": null,
+  "releaseState": "not-ready",
+  "withdrawPublicGitHubLinksOnlyAfter": [
+    "R2 objects are uploaded and private Worker download is verified",
+    "Supabase release asset rows are available and checksums match",
+    "Owner local Keychain signer has produced and imported one test license",
+    "Website private mode is enabled and a developer application can be approved"
+  ],
+  "assets": []
+}
